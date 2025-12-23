@@ -164,8 +164,40 @@
     </section>
 
     <section
+      class="py-12 md:py-24 px-6 relative z-10 opacity-0"
+      id="video-demo"
+    >
+      <div class="container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-5xl font-black mb-4 tracking-tight">
+            Watch it in <span class="text-purple-500">Action</span>
+          </h2>
+          <p class="text-gray-400">
+            See how wallpaint transforms spaces instantly with artificial
+            intelligence.
+          </p>
+        </div>
+        <div class="glass-ice p-2 md:p-4 rounded-[2rem] overflow-hidden">
+          <div
+            class="relative w-full aspect-video rounded-3xl overflow-hidden shadow-2xl bg-black"
+          >
+            <iframe
+              class="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="wallpaint AI Demo"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
       id="gallery"
-      class="py-24 md:py-32 px-6 relative overflow-hidden border-t border-white/5"
+      class="py-24 md:py-32 px-6 relative overflow-hidden border-t border-white/5 z-10"
     >
       <div class="container mx-auto max-w-7xl">
         <div class="text-center mb-16 md:mb-20">
@@ -180,13 +212,12 @@
         </div>
 
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
         >
-          <!-- Gallery Item 1 -->
           <div
             class="gallery-item group relative glass-ice rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-indigo-500/20"
           >
-            <div class="aspect-[4/5] overflow-hidden">
+            <div class="aspect-[9/16] overflow-hidden">
               <img
                 src="./images/gallery/1.jpg"
                 alt="Gallery Image 1"
@@ -205,17 +236,15 @@
                 Bath Room
               </p>
               <p class="text-md font-light">
-                Modern bathroom with bold mustard and deep blue walls, balanced
-                by clean white fixtures.
+                Modern bathroom with bold mustard and deep blue walls.
               </p>
             </div>
           </div>
 
-          <!-- Gallery Item 2 -->
           <div
             class="gallery-item group relative glass-ice rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
           >
-            <div class="aspect-[4/5] overflow-hidden">
+            <div class="aspect-[9/16] overflow-hidden">
               <img
                 src="./images/gallery/2.jpg"
                 alt="Gallery Image 2"
@@ -234,17 +263,15 @@
                 Kitchen & Bedroom
               </p>
               <p class="text-md font-light">
-                Soft green and warm blush walls create a calm, modern, cozy
-                living space.
+                Soft green and warm blush walls create a cozy space.
               </p>
             </div>
           </div>
 
-          <!-- Gallery Item 3 -->
           <div
             class="gallery-item group relative glass-ice rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-indigo-500/20"
           >
-            <div class="aspect-[4/5] overflow-hidden">
+            <div class="aspect-[9/16] overflow-hidden">
               <img
                 src="./images/gallery/3.jpg"
                 alt="Gallery Image 3"
@@ -263,17 +290,15 @@
                 Living Room & Kitchen
               </p>
               <p class="text-md font-light">
-                Deep charcoal and soft beige walls blend elegance with calm,
-                modern minimal interiors.
+                Deep charcoal and soft beige walls blend elegance.
               </p>
             </div>
           </div>
 
-          <!-- Gallery Item 4 -->
           <div
             class="gallery-item group relative glass-ice rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
           >
-            <div class="aspect-[4/5] overflow-hidden">
+            <div class="aspect-[9/16] overflow-hidden">
               <img
                 src="./images/gallery/4.jpg"
                 alt="Gallery Image 4"
@@ -292,17 +317,15 @@
                 Living Room & Kitchen
               </p>
               <p class="text-md font-light">
-                Rich forest green and soft mint walls create a soothing, fresh,
-                contemporary interior.
+                Rich forest green and soft mint walls create a fresh interior.
               </p>
             </div>
           </div>
 
-          <!-- Gallery Item 5 -->
           <div
             class="gallery-item group relative glass-ice rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-indigo-500/20"
           >
-            <div class="aspect-[4/5] overflow-hidden">
+            <div class="aspect-[9/16] overflow-hidden">
               <img
                 src="./images/gallery/5.jpg"
                 alt="Gallery Image 5"
@@ -321,17 +344,15 @@
                 Bed room
               </p>
               <p class="text-md font-light">
-                Deep teal and warm peach walls create a cozy, elegant, modern
-                bedroom atmosphere.
+                Deep teal and warm peach walls create an elegant bedroom.
               </p>
             </div>
           </div>
 
-          <!-- Gallery Item 6 -->
           <div
             class="gallery-item group relative glass-ice rounded-3xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20"
           >
-            <div class="aspect-[4/5] overflow-hidden">
+            <div class="aspect-[9/16] overflow-hidden">
               <img
                 src="./images/gallery/6.jpg"
                 alt="Gallery Image 6"
@@ -350,8 +371,7 @@
                 Garage
               </p>
               <p class="text-md font-light">
-                Clean white and warm beige tones give the garage a bright,
-                premium, modern look.
+                Clean white and warm beige tones for a premium garage look.
               </p>
             </div>
           </div>
@@ -414,21 +434,16 @@
     </footer>
 
     <script>
-      // GSAP Entry Animations
       window.addEventListener("load", () => {
         const tl = gsap.timeline({ defaults: { ease: "expo.out" } });
 
-        tl.to("#hero-tag", { opacity: 1, y: 0, duration: 1.5 })
-          .to(
-            "#hero-title",
-            { opacity: 1, y: 0, duration: 1.5, stagger: 0.2 },
-            "-=1"
-          )
+        tl.to("#hero-title", { opacity: 1, y: 0, duration: 1.5, stagger: 0.2 })
           .to("#hero-desc", { opacity: 1, duration: 1.5 }, "-=1.2")
           .to("#hero-btns", { opacity: 1, duration: 1.5 }, "-=1.2")
-          .to("#hero-image", { opacity: 1, scale: 1, duration: 2 }, "-=1");
+          .to("#hero-image", { opacity: 1, scale: 1, duration: 2 }, "-=1")
+          .to("#video-demo", { opacity: 1, y: 0, duration: 1.5 }, "-=1.5");
 
-        // Subtle Ambient Glow Movement
+        // Ambient Glow
         gsap.to("#glow-1", {
           x: 80,
           y: 40,
@@ -446,7 +461,7 @@
           ease: "sine.inOut",
         });
 
-        // Responsive Navbar Toggle on Scroll
+        // Navbar Scroll Effect
         window.addEventListener("scroll", () => {
           const nav = document.getElementById("navbar");
           if (window.scrollY > 50) {
