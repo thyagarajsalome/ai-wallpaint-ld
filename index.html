@@ -55,6 +55,46 @@
       </div>
     </section>
 
+    <section class="how-to-use">
+      <div class="container">
+        <h2 class="section-title gradient-text">How to Use Wall Paint AI</h2>
+        <div class="steps-grid">
+          <div class="step-card glass-ice">
+            <div class="step-number">STEP 01</div>
+            <h3>Upload Photo</h3>
+            <p>
+              Snap a clear picture of your room or upload an existing one from
+              your device's gallery.
+            </p>
+          </div>
+          <div class="step-card glass-ice">
+            <div class="step-number">STEP 02</div>
+            <h3>Select Paint Color</h3>
+            <p>
+              Browse the palette and choose the perfect shade for your space.
+              Experiment with thousands of colors.
+            </p>
+          </div>
+          <div class="step-card glass-ice">
+            <div class="step-number">STEP 03</div>
+            <h3>Paint My Room</h3>
+            <p>
+              Press the "Paint My Room" button to let the AI instantly visualize
+              your chosen color with realistic lighting.
+            </p>
+          </div>
+          <div class="step-card glass-ice">
+            <div class="step-number">STEP 04</div>
+            <h3>Save & Share</h3>
+            <p>
+              Love the result? Save your transformation to your gallery or share
+              it with others for feedback.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="gallery-section">
       <div class="gallery-grid">
         <div class="gallery-item glass-ice">
@@ -103,7 +143,6 @@
     <script>
       window.addEventListener("load", () => {
         const tl = gsap.timeline({ defaults: { ease: "expo.out" } });
-
         tl.to("#hero-title", { opacity: 1, y: 0, duration: 1.5 })
           .to("#hero-desc", { opacity: 1, duration: 1.5 }, "-=1.2")
           .to("#hero-btns", { opacity: 1, duration: 1.5 }, "-=1.2");
